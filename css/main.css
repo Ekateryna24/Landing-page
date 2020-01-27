@@ -1,0 +1,194 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: black;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 41px;
+	float: left;
+
+}
+
+nav {
+	float: right;
+	padding-top: 41px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.titeles_first {
+	margin-top: 180px;
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 {
+	margin: 15px;
+	font-size: 75px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.title {
+	padding-top: 115px;
+	text-align: center;
+
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+
+}
+
+title p {
+	color: #777777;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.services {
+	margin-top: 50px;
+
+}
+
+.services_item {
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.services_item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+
+}
+
+.services_item p {
+	font-size: 14;
+	color: #777777;
+	line-height: 1.55 em
+}
+
+.services_item:last-child {
+	float: right;
+}
+
+.services_item:nth-child(2) {
+	margin-left: 60px;
+}
+
+#services {
+	padding-bottom: 150px;
+}
+
+#potfolio {
+	background-color: papayawhip;
+	padding-bottom: 120px;
+}
+
+.works {
+	margin-top: 70px;
+}
+
+.works img {
+	float: left;
+}
+
+.works img:nth-child(2) {
+	margin-left: 30px;
+}
+
+.works img:last-child {
+	float: right
+}
+
+.about {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+
+.image {
+	width: 100%;
+}
+
+.content {
+	width: 590px;
+	display: inline-block;
+	text-align: right;
+	padding: 5px 20px 5px 5px;
+	border:
+
+}
+
+.about:nth-child(odd) {
+	flex-direction: row-reverse;
+	text-align: right;
+}
+
+.about:nth-child(odd) .content {
+	text-align: left;
+	padding: 5px 5px 5px 20px;
+}
+
+.content p {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#foot {
+	text-align: center;
+	color: black;
+}
+
+footer {
+	padding: 45px;
+}
