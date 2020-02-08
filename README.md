@@ -1,2 +1,1 @@
-#big header for repository
-lorem12 
+My first landing page at git hub
